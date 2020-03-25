@@ -33,7 +33,7 @@ console.log(mem.getName());
 var mem2 = new Member("倉原", "昌宏");
 
 console.log(mem2.firstName);
-*/
+
 
 const array = ["イチゴ", "みかん", "りんご"];
 
@@ -112,3 +112,13 @@ function findUser() {
 
   serchResult.textContent = targetData.name;
 }
+*/
+console.log("起動時の時刻", new Date().toLocaleTimeString());
+
+setTimeout(() => {
+  console.log("setTimeout後の時刻", new Date().toLocaleTimeString());
+}, 1000);
+
+setInterval(() => {
+  console.log("setIntervalでの時刻", new Date().toLocaleTimeString());
+}, 100000);
