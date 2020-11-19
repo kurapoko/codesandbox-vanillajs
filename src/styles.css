@@ -1,3 +1,10 @@
 body {
   font-family: sans-serif;
 }
+.search-result {
+  font-size: 30px;
+}
+
+.textCounter.error #textCounter {
+  background: red;
+}
